@@ -1,0 +1,52 @@
+/* Container Styles */
+.header-overall {
+    background-color: #f0f0f0;
+    width: 100%;
+  }
+  
+  .sticky {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  /* Header Styles */
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .hea-first h1 {
+    font-size: 28px;
+    color: #333;
+    margin: 0;
+    transition: color 0.3s ease;
+  }
+  
+  .hea-first h1:hover {
+    color: #007BFF;
+  }
+  
+  /* Header Links Styles */
+  .header-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .header-link {
+    font-size: 18px;
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .header-link:hover {
+    color: #0056b3;
+  }
+  

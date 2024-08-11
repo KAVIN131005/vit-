@@ -1,0 +1,53 @@
+.current-situation-page {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    color: #666;
+  }
+  
+  .updates-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .update-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-item h2 {
+    margin-bottom: 10px;
+    color: #e74c3c;
+  }
+  
+  .update-item p {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .timestamp {
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+  }
+  
